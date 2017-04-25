@@ -1,6 +1,6 @@
 # npmtest-gulp-obfuscate
 
-#### test coverage for  [gulp-obfuscate (v0.2.9)](http://github.com/mikrofusion/gulp-obfuscate)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-obfuscate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-obfuscate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-obfuscate.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-obfuscate)
+#### basic test coverage for  [gulp-obfuscate (v0.2.9)](http://github.com/mikrofusion/gulp-obfuscate)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-obfuscate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-obfuscate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-obfuscate.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-obfuscate)
 
 #### Obfuscate your code.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-obfuscate/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-obfuscate/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-obfuscate/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-obfuscate/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-obfuscate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-obfuscate/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-obfuscate/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-obfuscate/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-obfuscate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-obfuscate/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-obfuscate/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-obfuscate/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "mocha -R spec"
     },
-    "version": "0.2.9"
+    "version": "0.2.9",
+    "bin": {}
 }
 ```
 
